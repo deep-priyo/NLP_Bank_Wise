@@ -93,8 +93,12 @@ def chat_with_icicibank_assistant(prompt):
     return full_response
 
 
-# Example usage:
 if __name__ == "__main__":
+    # import os
+    # if os.name == "nt":  # Windows
+    #     from waitress import serve
+    #     print("Running with Waitress on Windows...")
+    #     serve(app, host="0.0.0.0", port=8080)
+    # else:  # Linux (Render)
     from gunicorn.app.wsgiapp import run
     run()
-
