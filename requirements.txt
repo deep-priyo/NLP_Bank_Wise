@@ -1,0 +1,10 @@
+Flask>=2.2.5,<3.0.0
+Flask-Cors==3.0.10
+python-dotenv>=1.0.0,<2.0.0
+langchain-openai
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-chroma
+langchain~=0.3.14
+beautifulsoup4>=4.11.1
