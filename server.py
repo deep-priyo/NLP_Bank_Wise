@@ -98,7 +98,7 @@ if __name__ == "__main__":
     # if os.name == "nt":  # Windows
     #     from waitress import serve
     #     print("Running with Waitress on Windows...")
-    #     serve(app, host="0.0.0.0", port=8080)
+    #     serve(app, host="0.0.0.0", port=5000)
     # else:  # Linux (Render)
     from gunicorn.app.wsgiapp import run
     run()
